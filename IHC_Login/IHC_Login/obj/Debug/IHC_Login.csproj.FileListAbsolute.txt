@@ -1,0 +1,12 @@
+C:\Users\lucas\Documents\Trabalho IHC\IHC_Login\IHC_Login\obj\Debug\IHC_Login.FrmLogin.resources
+C:\Users\lucas\Documents\Trabalho IHC\IHC_Login\IHC_Login\obj\Debug\IHC_Login.csproj.GenerateResource.Cache
+C:\Users\lucas\Documents\Trabalho IHC\IHC_Login\IHC_Login\obj\Debug\IHC_Login.Properties.Resources.resources
+C:\Users\lucas\Documents\Trabalho IHC\IHC_Login\IHC_Login\bin\Debug\IHC_Login.exe.config
+C:\Users\lucas\Documents\Trabalho IHC\IHC_Login\IHC_Login\bin\Debug\IHC_Login.exe
+C:\Users\lucas\Documents\Trabalho IHC\IHC_Login\IHC_Login\bin\Debug\IHC_Login.pdb
+C:\Users\lucas\Documents\Trabalho IHC\IHC_Login\IHC_Login\obj\Debug\IHC_Login.exe
+C:\Users\lucas\Documents\Trabalho IHC\IHC_Login\IHC_Login\obj\Debug\IHC_Login.pdb
+C:\Users\lucas\Documents\Trabalho IHC\IHC_Login\IHC_Login\obj\Debug\IHC_Login.csprojResolveAssemblyReference.cache
+C:\Users\lucas\Documents\Trabalho IHC\IHC_Login - Copia\IHC_Login\bin\Debug\IHC_Login.exe.config
+C:\Users\lucas\Documents\Trabalho IHC\IHC_Login - Copia\IHC_Login\obj\Debug\IHC_Login.exe
+C:\Users\lucas\Documents\Trabalho IHC\IHC_Login - Copia\IHC_Login\obj\Debug\IHC_Login.pdb
