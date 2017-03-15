@@ -57,6 +57,7 @@ namespace IHC_Login
             if (MessageBox.Show("Deseja sair?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 Close();
+                Environment.Exit();
             }
         }
 
