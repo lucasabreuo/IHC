@@ -79,7 +79,7 @@
             // 
             // toolStripDropIncluir
             // 
-            this.toolStripDropIncluir.Image = global::MeuCalhambeque.Properties.Resources.btnInsert_Image;
+            this.toolStripDropIncluir.Image = global::MeuCalhambeque.Properties.Resources.add;
             this.toolStripDropIncluir.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropIncluir.Name = "toolStripDropIncluir";
             this.toolStripDropIncluir.ShowDropDownArrow = false;
