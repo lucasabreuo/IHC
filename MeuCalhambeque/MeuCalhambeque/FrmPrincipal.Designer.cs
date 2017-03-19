@@ -63,14 +63,16 @@
             this.despesasToolStripMenuItem,
             this.gastoMensalToolStripMenuItem});
             this.toolStripCadastros.Image = global::MeuCalhambeque.Properties.Resources.favicon__2_;
+            this.toolStripCadastros.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripCadastros.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripCadastros.Name = "toolStripCadastros";
-            this.toolStripCadastros.Size = new System.Drawing.Size(133, 29);
+            this.toolStripCadastros.Size = new System.Drawing.Size(125, 29);
             this.toolStripCadastros.Text = "Cadastros";
             // 
             // veículosToolStripMenuItem
             // 
-            this.veículosToolStripMenuItem.Image = global::MeuCalhambeque.Properties.Resources.volante;
+            this.veículosToolStripMenuItem.Image = global::MeuCalhambeque.Properties.Resources.volante1;
+            this.veículosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.veículosToolStripMenuItem.Name = "veículosToolStripMenuItem";
             this.veículosToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
             this.veículosToolStripMenuItem.Text = "Veículos";
@@ -86,6 +88,7 @@
             // gastoMensalToolStripMenuItem
             // 
             this.gastoMensalToolStripMenuItem.Image = global::MeuCalhambeque.Properties.Resources.gastoMensal;
+            this.gastoMensalToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.gastoMensalToolStripMenuItem.Name = "gastoMensalToolStripMenuItem";
             this.gastoMensalToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
             this.gastoMensalToolStripMenuItem.Text = "Gasto Mensal";
@@ -93,37 +96,41 @@
             // toolStripRelatorios
             // 
             this.toolStripRelatorios.Image = global::MeuCalhambeque.Properties.Resources.Relatorio;
+            this.toolStripRelatorios.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripRelatorios.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripRelatorios.Name = "toolStripRelatorios";
             this.toolStripRelatorios.ShowDropDownArrow = false;
-            this.toolStripRelatorios.Size = new System.Drawing.Size(118, 29);
+            this.toolStripRelatorios.Size = new System.Drawing.Size(110, 29);
             this.toolStripRelatorios.Text = "Relatórios";
             // 
             // toolStripHelp
             // 
             this.toolStripHelp.Image = global::MeuCalhambeque.Properties.Resources.help;
+            this.toolStripHelp.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripHelp.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripHelp.Name = "toolStripHelp";
             this.toolStripHelp.ShowDropDownArrow = false;
-            this.toolStripHelp.Size = new System.Drawing.Size(77, 29);
+            this.toolStripHelp.Size = new System.Drawing.Size(69, 29);
             this.toolStripHelp.Text = "Help";
             // 
             // toolStripSobre
             // 
             this.toolStripSobre.Image = global::MeuCalhambeque.Properties.Resources.icone_informacao;
+            this.toolStripSobre.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripSobre.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSobre.Name = "toolStripSobre";
             this.toolStripSobre.ShowDropDownArrow = false;
-            this.toolStripSobre.Size = new System.Drawing.Size(87, 29);
+            this.toolStripSobre.Size = new System.Drawing.Size(79, 29);
             this.toolStripSobre.Text = "Sobre";
             // 
             // toolStripSair
             // 
             this.toolStripSair.Image = global::MeuCalhambeque.Properties.Resources.system_close_16;
+            this.toolStripSair.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripSair.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSair.Name = "toolStripSair";
             this.toolStripSair.ShowDropDownArrow = false;
-            this.toolStripSair.Size = new System.Drawing.Size(69, 29);
+            this.toolStripSair.Size = new System.Drawing.Size(61, 29);
             this.toolStripSair.Text = "Sair";
             // 
             // FrmPrincipal
@@ -131,6 +138,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(885, 315);
             this.Controls.Add(this.toolStripMenu);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MaximizeBox = false;

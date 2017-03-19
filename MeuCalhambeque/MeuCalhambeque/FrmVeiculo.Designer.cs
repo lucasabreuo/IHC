@@ -29,10 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmVeiculo));
-            this.toolStripDropIncluir = new System.Windows.Forms.ToolStripDropDownButton();
-            this.toolStripExcluir = new System.Windows.Forms.ToolStripDropDownButton();
-            this.toolStripSalvar = new System.Windows.Forms.ToolStripDropDownButton();
-            this.toolStripLimpar = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStripCadastroVeiculo = new System.Windows.Forms.ToolStrip();
             this.tabPageIdentificacao = new System.Windows.Forms.TabPage();
             this.txbProprietario = new System.Windows.Forms.TextBox();
@@ -72,46 +68,14 @@
             this.tabControlIdentificacao = new System.Windows.Forms.TabControl();
             this.btnOk = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.toolStripDropIncluir = new System.Windows.Forms.ToolStripDropDownButton();
+            this.toolStripExcluir = new System.Windows.Forms.ToolStripDropDownButton();
+            this.toolStripSalvar = new System.Windows.Forms.ToolStripDropDownButton();
+            this.toolStripLimpar = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStripCadastroVeiculo.SuspendLayout();
             this.tabPageIdentificacao.SuspendLayout();
             this.tabControlIdentificacao.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // toolStripDropIncluir
-            // 
-            this.toolStripDropIncluir.Image = global::MeuCalhambeque.Properties.Resources.add;
-            this.toolStripDropIncluir.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripDropIncluir.Name = "toolStripDropIncluir";
-            this.toolStripDropIncluir.ShowDropDownArrow = false;
-            this.toolStripDropIncluir.Size = new System.Drawing.Size(87, 29);
-            this.toolStripDropIncluir.Text = "Incluir";
-            // 
-            // toolStripExcluir
-            // 
-            this.toolStripExcluir.Image = global::MeuCalhambeque.Properties.Resources.btnDelete;
-            this.toolStripExcluir.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripExcluir.Name = "toolStripExcluir";
-            this.toolStripExcluir.ShowDropDownArrow = false;
-            this.toolStripExcluir.Size = new System.Drawing.Size(89, 29);
-            this.toolStripExcluir.Text = "Excluir";
-            // 
-            // toolStripSalvar
-            // 
-            this.toolStripSalvar.Image = global::MeuCalhambeque.Properties.Resources.btnSave;
-            this.toolStripSalvar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripSalvar.Name = "toolStripSalvar";
-            this.toolStripSalvar.ShowDropDownArrow = false;
-            this.toolStripSalvar.Size = new System.Drawing.Size(87, 29);
-            this.toolStripSalvar.Text = "Salvar";
-            // 
-            // toolStripLimpar
-            // 
-            this.toolStripLimpar.Image = global::MeuCalhambeque.Properties.Resources.clear;
-            this.toolStripLimpar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripLimpar.Name = "toolStripLimpar";
-            this.toolStripLimpar.ShowDropDownArrow = false;
-            this.toolStripLimpar.Size = new System.Drawing.Size(94, 29);
-            this.toolStripLimpar.Text = "Limpar";
             // 
             // toolStripCadastroVeiculo
             // 
@@ -555,7 +519,7 @@
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.Location = new System.Drawing.Point(686, 541);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(8);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Padding = new System.Windows.Forms.Padding(2);
             this.btnCancelar.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -563,6 +527,46 @@
             this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "&Cancelar ";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            // 
+            // toolStripDropIncluir
+            // 
+            this.toolStripDropIncluir.Image = global::MeuCalhambeque.Properties.Resources.add;
+            this.toolStripDropIncluir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripDropIncluir.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripDropIncluir.Name = "toolStripDropIncluir";
+            this.toolStripDropIncluir.ShowDropDownArrow = false;
+            this.toolStripDropIncluir.Size = new System.Drawing.Size(79, 29);
+            this.toolStripDropIncluir.Text = "Incluir";
+            // 
+            // toolStripExcluir
+            // 
+            this.toolStripExcluir.Image = global::MeuCalhambeque.Properties.Resources.btnDelete;
+            this.toolStripExcluir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripExcluir.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripExcluir.Name = "toolStripExcluir";
+            this.toolStripExcluir.ShowDropDownArrow = false;
+            this.toolStripExcluir.Size = new System.Drawing.Size(81, 29);
+            this.toolStripExcluir.Text = "Excluir";
+            // 
+            // toolStripSalvar
+            // 
+            this.toolStripSalvar.Image = global::MeuCalhambeque.Properties.Resources.btnSave;
+            this.toolStripSalvar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripSalvar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripSalvar.Name = "toolStripSalvar";
+            this.toolStripSalvar.ShowDropDownArrow = false;
+            this.toolStripSalvar.Size = new System.Drawing.Size(79, 29);
+            this.toolStripSalvar.Text = "Salvar";
+            // 
+            // toolStripLimpar
+            // 
+            this.toolStripLimpar.Image = global::MeuCalhambeque.Properties.Resources.clear;
+            this.toolStripLimpar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripLimpar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripLimpar.Name = "toolStripLimpar";
+            this.toolStripLimpar.ShowDropDownArrow = false;
+            this.toolStripLimpar.Size = new System.Drawing.Size(86, 29);
+            this.toolStripLimpar.Text = "Limpar";
             // 
             // FrmVeiculo
             // 
