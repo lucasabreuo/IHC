@@ -33,7 +33,8 @@ namespace MeuCalhambeque
 
         private void despesasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FrmDespesa lancarDespesa = new FrmDespesa();
+            lancarDespesa.ShowDialog();
         }
 
         private void gastoMensalToolStripMenuItem_Click(object sender, EventArgs e)
