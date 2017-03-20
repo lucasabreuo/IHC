@@ -133,6 +133,16 @@ namespace MeuCalhambeque.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap despesas__1_ {
+            get {
+                object obj = ResourceManager.GetObject("despesas (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap favicon__2_ {
             get {
                 object obj = ResourceManager.GetObject("favicon (2)", resourceCulture);

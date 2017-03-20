@@ -68,7 +68,7 @@
             this.tabControlIdentificacao = new System.Windows.Forms.TabControl();
             this.btnOk = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.toolStripDropIncluir = new System.Windows.Forms.ToolStripDropDownButton();
+            this.toolStripIncluir = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStripExcluir = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStripSalvar = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStripLimpar = new System.Windows.Forms.ToolStripDropDownButton();
@@ -81,7 +81,7 @@
             // 
             this.toolStripCadastroVeiculo.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStripCadastroVeiculo.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripDropIncluir,
+            this.toolStripIncluir,
             this.toolStripExcluir,
             this.toolStripSalvar,
             this.toolStripLimpar});
@@ -290,6 +290,7 @@
             // txbAntt
             // 
             this.txbAntt.Location = new System.Drawing.Point(288, 253);
+            this.txbAntt.MaxLength = 11;
             this.txbAntt.Name = "txbAntt";
             this.txbAntt.Size = new System.Drawing.Size(152, 28);
             this.txbAntt.TabIndex = 19;
@@ -308,6 +309,7 @@
             // txbAnoModelo
             // 
             this.txbAnoModelo.Location = new System.Drawing.Point(170, 253);
+            this.txbAnoModelo.MaxLength = 4;
             this.txbAnoModelo.Name = "txbAnoModelo";
             this.txbAnoModelo.Size = new System.Drawing.Size(94, 28);
             this.txbAnoModelo.TabIndex = 17;
@@ -316,6 +318,7 @@
             // txbAnoFabricacao
             // 
             this.txbAnoFabricacao.Location = new System.Drawing.Point(20, 253);
+            this.txbAnoFabricacao.MaxLength = 4;
             this.txbAnoFabricacao.Name = "txbAnoFabricacao";
             this.txbAnoFabricacao.Size = new System.Drawing.Size(126, 28);
             this.txbAnoFabricacao.TabIndex = 16;
@@ -352,6 +355,7 @@
             // txbRenavam
             // 
             this.txbRenavam.Location = new System.Drawing.Point(466, 188);
+            this.txbRenavam.MaxLength = 9;
             this.txbRenavam.Name = "txbRenavam";
             this.txbRenavam.Size = new System.Drawing.Size(115, 28);
             this.txbRenavam.TabIndex = 12;
@@ -384,14 +388,16 @@
             this.txbModelo.Name = "txbModelo";
             this.txbModelo.Size = new System.Drawing.Size(420, 28);
             this.txbModelo.TabIndex = 9;
+            this.txbModelo.Enter += new System.EventHandler(this.txbModelo_Enter);
+            this.txbModelo.Leave += new System.EventHandler(this.txbModelo_Leave);
             // 
             // lblModelo
             // 
             this.lblModelo.AutoSize = true;
-            this.lblModelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblModelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblModelo.Location = new System.Drawing.Point(16, 163);
             this.lblModelo.Name = "lblModelo";
-            this.lblModelo.Size = new System.Drawing.Size(162, 22);
+            this.lblModelo.Size = new System.Drawing.Size(180, 22);
             this.lblModelo.TabIndex = 8;
             this.lblModelo.Text = "Modelo do Veículo:";
             // 
@@ -467,6 +473,8 @@
             this.cbxUF.Name = "cbxUF";
             this.cbxUF.Size = new System.Drawing.Size(231, 30);
             this.cbxUF.TabIndex = 3;
+            this.cbxUF.Enter += new System.EventHandler(this.cbxUF_Enter);
+            this.cbxUF.Leave += new System.EventHandler(this.cbxUF_Leave);
             // 
             // lblUF
             // 
@@ -484,6 +492,8 @@
             this.txbPlaca.Name = "txbPlaca";
             this.txbPlaca.Size = new System.Drawing.Size(162, 28);
             this.txbPlaca.TabIndex = 1;
+            this.txbPlaca.Enter += new System.EventHandler(this.txbPlaca_Enter);
+            this.txbPlaca.Leave += new System.EventHandler(this.txbPlaca_Leave);
             // 
             // lblPlaca
             // 
@@ -514,6 +524,7 @@
             this.btnOk.TabIndex = 5;
             this.btnOk.Text = "&OK";
             this.btnOk.UseVisualStyleBackColor = true;
+            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // btnCancelar
             // 
@@ -527,16 +538,19 @@
             this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "&Cancelar ";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // toolStripDropIncluir
+            // toolStripIncluir
             // 
-            this.toolStripDropIncluir.Image = global::MeuCalhambeque.Properties.Resources.add;
-            this.toolStripDropIncluir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripDropIncluir.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripDropIncluir.Name = "toolStripDropIncluir";
-            this.toolStripDropIncluir.ShowDropDownArrow = false;
-            this.toolStripDropIncluir.Size = new System.Drawing.Size(79, 29);
-            this.toolStripDropIncluir.Text = "Incluir";
+            this.toolStripIncluir.Image = global::MeuCalhambeque.Properties.Resources.add;
+            this.toolStripIncluir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripIncluir.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripIncluir.Name = "toolStripIncluir";
+            this.toolStripIncluir.ShowDropDownArrow = false;
+            this.toolStripIncluir.Size = new System.Drawing.Size(79, 29);
+            this.toolStripIncluir.Text = "Incluir";
+            this.toolStripIncluir.ToolTipText = "Incluir (F1)";
+            this.toolStripIncluir.Click += new System.EventHandler(this.toolStripIncluir_Click);
             // 
             // toolStripExcluir
             // 
@@ -557,6 +571,8 @@
             this.toolStripSalvar.ShowDropDownArrow = false;
             this.toolStripSalvar.Size = new System.Drawing.Size(79, 29);
             this.toolStripSalvar.Text = "Salvar";
+            this.toolStripSalvar.ToolTipText = "Salvar (F2)";
+            this.toolStripSalvar.Click += new System.EventHandler(this.toolStripSalvar_Click);
             // 
             // toolStripLimpar
             // 
@@ -567,6 +583,8 @@
             this.toolStripLimpar.ShowDropDownArrow = false;
             this.toolStripLimpar.Size = new System.Drawing.Size(86, 29);
             this.toolStripLimpar.Text = "Limpar";
+            this.toolStripLimpar.ToolTipText = "Limpar (F3)";
+            this.toolStripLimpar.Click += new System.EventHandler(this.toolStripLimpar_Click);
             // 
             // FrmVeiculo
             // 
@@ -580,11 +598,13 @@
             this.Controls.Add(this.toolStripCadastroVeiculo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "FrmVeiculo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Veículos";
             this.Load += new System.EventHandler(this.FrmVeiculo_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmVeiculo_KeyDown);
             this.toolStripCadastroVeiculo.ResumeLayout(false);
             this.toolStripCadastroVeiculo.PerformLayout();
             this.tabPageIdentificacao.ResumeLayout(false);
@@ -597,7 +617,7 @@
 
         #endregion
 
-        private System.Windows.Forms.ToolStripDropDownButton toolStripDropIncluir;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripIncluir;
         private System.Windows.Forms.ToolStripDropDownButton toolStripExcluir;
         private System.Windows.Forms.ToolStripDropDownButton toolStripSalvar;
         private System.Windows.Forms.ToolStripDropDownButton toolStripLimpar;

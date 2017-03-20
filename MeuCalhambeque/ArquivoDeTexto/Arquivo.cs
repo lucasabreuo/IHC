@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-namespace ArquivoTexto
+namespace ArquivoDeTexto
 {
     public class Arquivo
     {
@@ -28,11 +28,7 @@ namespace ArquivoTexto
         private bool SalvarDados(object[] dados, string separador)
         {
             try
-            {
-                if (!File.Exists(_arquivo))
-                    File.Create(_arquivo);
-
-                File.Open(_arquivo,FileMode.OpenOrCreate); ;
+            {                
                 using (StreamWriter escrever = new StreamWriter(_arquivo, true))
                 {
                     string linha = string.Join(separador, dados);

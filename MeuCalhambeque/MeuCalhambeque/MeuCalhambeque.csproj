@@ -140,6 +140,19 @@
   <ItemGroup>
     <None Include="Resources\volante1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArquivoDeTexto\ArquivoDeTexto.csproj">
+      <Project>{D7379978-FFF9-4169-8D54-AA5FFB42B1BD}</Project>
+      <Name>ArquivoDeTexto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidade\Entidade.csproj">
+      <Project>{c1b59e0d-b001-4b30-b0ee-8a9a535455bd}</Project>
+      <Name>Entidade</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\despesas %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

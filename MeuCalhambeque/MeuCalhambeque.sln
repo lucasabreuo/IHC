@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuCalhambeque", "MeuCalham
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquivoDeTexto", "ArquivoDeTexto\ArquivoDeTexto.csproj", "{D7379978-FFF9-4169-8D54-AA5FFB42B1BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidade", "Entidade\Entidade.csproj", "{C1B59E0D-B001-4B30-B0EE-8A9A535455BD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D7379978-FFF9-4169-8D54-AA5FFB42B1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7379978-FFF9-4169-8D54-AA5FFB42B1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7379978-FFF9-4169-8D54-AA5FFB42B1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B59E0D-B001-4B30-B0EE-8A9A535455BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B59E0D-B001-4B30-B0EE-8A9A535455BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B59E0D-B001-4B30-B0EE-8A9A535455BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B59E0D-B001-4B30-B0EE-8A9A535455BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             this.toolStripMenu = new System.Windows.Forms.ToolStrip();
             this.toolStripCadastros = new System.Windows.Forms.ToolStripDropDownButton();
-            this.veículosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.veiculosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.despesasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gastoMensalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripRelatorios = new System.Windows.Forms.ToolStripDropDownButton();
@@ -59,7 +59,7 @@
             // toolStripCadastros
             // 
             this.toolStripCadastros.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.veículosToolStripMenuItem,
+            this.veiculosToolStripMenuItem,
             this.despesasToolStripMenuItem,
             this.gastoMensalToolStripMenuItem});
             this.toolStripCadastros.Image = global::MeuCalhambeque.Properties.Resources.favicon__2_;
@@ -67,23 +67,25 @@
             this.toolStripCadastros.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripCadastros.Name = "toolStripCadastros";
             this.toolStripCadastros.Size = new System.Drawing.Size(125, 29);
-            this.toolStripCadastros.Text = "Cadastros";
+            this.toolStripCadastros.Text = "&Cadastros";
             // 
-            // veículosToolStripMenuItem
+            // veiculosToolStripMenuItem
             // 
-            this.veículosToolStripMenuItem.Image = global::MeuCalhambeque.Properties.Resources.volante1;
-            this.veículosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.veículosToolStripMenuItem.Name = "veículosToolStripMenuItem";
-            this.veículosToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
-            this.veículosToolStripMenuItem.Text = "Veículos";
-            this.veículosToolStripMenuItem.Click += new System.EventHandler(this.veículosToolStripMenuItem_Click);
+            this.veiculosToolStripMenuItem.Image = global::MeuCalhambeque.Properties.Resources.volante1;
+            this.veiculosToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.veiculosToolStripMenuItem.Name = "veiculosToolStripMenuItem";
+            this.veiculosToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
+            this.veiculosToolStripMenuItem.Text = "Veículos";
+            this.veiculosToolStripMenuItem.Click += new System.EventHandler(this.veículosToolStripMenuItem_Click);
             // 
             // despesasToolStripMenuItem
             // 
-            this.despesasToolStripMenuItem.Image = global::MeuCalhambeque.Properties.Resources.despesas;
+            this.despesasToolStripMenuItem.Image = global::MeuCalhambeque.Properties.Resources.despesas__1_;
+            this.despesasToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.despesasToolStripMenuItem.Name = "despesasToolStripMenuItem";
             this.despesasToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
             this.despesasToolStripMenuItem.Text = "Despesas";
+            this.despesasToolStripMenuItem.Click += new System.EventHandler(this.despesasToolStripMenuItem_Click);
             // 
             // gastoMensalToolStripMenuItem
             // 
@@ -92,6 +94,7 @@
             this.gastoMensalToolStripMenuItem.Name = "gastoMensalToolStripMenuItem";
             this.gastoMensalToolStripMenuItem.Size = new System.Drawing.Size(211, 30);
             this.gastoMensalToolStripMenuItem.Text = "Gasto Mensal";
+            this.gastoMensalToolStripMenuItem.Click += new System.EventHandler(this.gastoMensalToolStripMenuItem_Click);
             // 
             // toolStripRelatorios
             // 
@@ -112,6 +115,8 @@
             this.toolStripHelp.ShowDropDownArrow = false;
             this.toolStripHelp.Size = new System.Drawing.Size(69, 29);
             this.toolStripHelp.Text = "Help";
+            this.toolStripHelp.ToolTipText = "Help (F1)";
+            this.toolStripHelp.Click += new System.EventHandler(this.toolStripHelp_Click);
             // 
             // toolStripSobre
             // 
@@ -132,6 +137,8 @@
             this.toolStripSair.ShowDropDownArrow = false;
             this.toolStripSair.Size = new System.Drawing.Size(61, 29);
             this.toolStripSair.Text = "Sair";
+            this.toolStripSair.ToolTipText = "Sair (F4)";
+            this.toolStripSair.Click += new System.EventHandler(this.toolStripSair_Click);
             // 
             // FrmPrincipal
             // 
@@ -141,12 +148,15 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.Name = "FrmPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Meu Calhambeque - Sistema de Controle de Despesas";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmPrincipal_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FrmPrincipal_KeyDown);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FrmPrincipal_KeyPress);
             this.toolStripMenu.ResumeLayout(false);
             this.toolStripMenu.PerformLayout();
             this.ResumeLayout(false);
@@ -158,7 +168,7 @@
 
         private System.Windows.Forms.ToolStrip toolStripMenu;
         private System.Windows.Forms.ToolStripDropDownButton toolStripCadastros;
-        private System.Windows.Forms.ToolStripMenuItem veículosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem veiculosToolStripMenuItem;
         private System.Windows.Forms.ToolStripDropDownButton toolStripRelatorios;
         private System.Windows.Forms.ToolStripMenuItem despesasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gastoMensalToolStripMenuItem;
