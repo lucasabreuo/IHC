@@ -95,7 +95,7 @@ namespace MeuCalhambeque
         #region Métodos Auxiliares        
         public void CapturaDadosCombustivel()
         {
-            Entidade. comb = new Entidade.Combustivel();
+            /*Combustivel comb = new Combustivel();
             veic.Placa = txbPlaca.Text;
             veic.UF = cbxUF.Text;
             veic.CertificadoPropriedade = txbCertificado.Text;
@@ -115,7 +115,7 @@ namespace MeuCalhambeque
             veic.NomePropVeiculo = txbProprietario.Text;
 
             veic.ListaVeiculo.Add(veic);
-            veic.SalvarVeiculo();
+            veic.SalvarVeiculo();*/
         }
         #endregion
     }

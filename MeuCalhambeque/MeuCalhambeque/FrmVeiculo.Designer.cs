@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmVeiculo));
             this.toolStripCadastroVeiculo = new System.Windows.Forms.ToolStrip();
+            this.toolStripIncluir = new System.Windows.Forms.ToolStripDropDownButton();
+            this.toolStripExcluir = new System.Windows.Forms.ToolStripDropDownButton();
+            this.toolStripSalvar = new System.Windows.Forms.ToolStripDropDownButton();
+            this.toolStripLimpar = new System.Windows.Forms.ToolStripDropDownButton();
             this.tabPageIdentificacao = new System.Windows.Forms.TabPage();
             this.txbProprietario = new System.Windows.Forms.TextBox();
             this.lblProprietario = new System.Windows.Forms.Label();
@@ -68,11 +72,6 @@
             this.tabControlIdentificacao = new System.Windows.Forms.TabControl();
             this.btnOk = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripIncluir = new System.Windows.Forms.ToolStripDropDownButton();
-            this.toolStripExcluir = new System.Windows.Forms.ToolStripDropDownButton();
-            this.toolStripSalvar = new System.Windows.Forms.ToolStripDropDownButton();
-            this.toolStripLimpar = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStripCadastroVeiculo.SuspendLayout();
             this.tabPageIdentificacao.SuspendLayout();
             this.tabControlIdentificacao.SuspendLayout();
@@ -91,6 +90,52 @@
             this.toolStripCadastroVeiculo.Size = new System.Drawing.Size(535, 25);
             this.toolStripCadastroVeiculo.TabIndex = 0;
             this.toolStripCadastroVeiculo.Text = "toolStrip1";
+            // 
+            // toolStripIncluir
+            // 
+            this.toolStripIncluir.Image = global::MeuCalhambeque.Properties.Resources.add;
+            this.toolStripIncluir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripIncluir.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripIncluir.Name = "toolStripIncluir";
+            this.toolStripIncluir.ShowDropDownArrow = false;
+            this.toolStripIncluir.Size = new System.Drawing.Size(60, 22);
+            this.toolStripIncluir.Text = "Incluir";
+            this.toolStripIncluir.ToolTipText = "Incluir (F1)";
+            this.toolStripIncluir.Click += new System.EventHandler(this.toolStripIncluir_Click);
+            // 
+            // toolStripExcluir
+            // 
+            this.toolStripExcluir.Image = global::MeuCalhambeque.Properties.Resources.btnDelete;
+            this.toolStripExcluir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripExcluir.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripExcluir.Name = "toolStripExcluir";
+            this.toolStripExcluir.ShowDropDownArrow = false;
+            this.toolStripExcluir.Size = new System.Drawing.Size(61, 22);
+            this.toolStripExcluir.Text = "Excluir";
+            // 
+            // toolStripSalvar
+            // 
+            this.toolStripSalvar.Image = global::MeuCalhambeque.Properties.Resources.btnSave;
+            this.toolStripSalvar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripSalvar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripSalvar.Name = "toolStripSalvar";
+            this.toolStripSalvar.ShowDropDownArrow = false;
+            this.toolStripSalvar.Size = new System.Drawing.Size(58, 22);
+            this.toolStripSalvar.Text = "Salvar";
+            this.toolStripSalvar.ToolTipText = "Salvar (F2)";
+            this.toolStripSalvar.Click += new System.EventHandler(this.toolStripSalvar_Click);
+            // 
+            // toolStripLimpar
+            // 
+            this.toolStripLimpar.Image = global::MeuCalhambeque.Properties.Resources.clear;
+            this.toolStripLimpar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripLimpar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripLimpar.Name = "toolStripLimpar";
+            this.toolStripLimpar.ShowDropDownArrow = false;
+            this.toolStripLimpar.Size = new System.Drawing.Size(64, 22);
+            this.toolStripLimpar.Text = "Limpar";
+            this.toolStripLimpar.ToolTipText = "Limpar (F3)";
+            this.toolStripLimpar.Click += new System.EventHandler(this.toolStripLimpar_Click);
             // 
             // tabPageIdentificacao
             // 
@@ -130,9 +175,9 @@
             this.tabPageIdentificacao.Controls.Add(this.lblPlaca);
             this.tabPageIdentificacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPageIdentificacao.Location = new System.Drawing.Point(4, 22);
-            this.tabPageIdentificacao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPageIdentificacao.Margin = new System.Windows.Forms.Padding(2);
             this.tabPageIdentificacao.Name = "tabPageIdentificacao";
-            this.tabPageIdentificacao.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPageIdentificacao.Padding = new System.Windows.Forms.Padding(2);
             this.tabPageIdentificacao.Size = new System.Drawing.Size(518, 288);
             this.tabPageIdentificacao.TabIndex = 0;
             this.tabPageIdentificacao.Text = "Identificação";
@@ -141,7 +186,7 @@
             // txbProprietario
             // 
             this.txbProprietario.Location = new System.Drawing.Point(13, 255);
-            this.txbProprietario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbProprietario.Margin = new System.Windows.Forms.Padding(2);
             this.txbProprietario.Name = "txbProprietario";
             this.txbProprietario.Size = new System.Drawing.Size(281, 21);
             this.txbProprietario.TabIndex = 33;
@@ -169,7 +214,7 @@
             "Porta Container",
             "Sider"});
             this.cbxTipoCarroceria.Location = new System.Drawing.Point(391, 207);
-            this.cbxTipoCarroceria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbxTipoCarroceria.Margin = new System.Windows.Forms.Padding(2);
             this.cbxTipoCarroceria.Name = "cbxTipoCarroceria";
             this.cbxTipoCarroceria.Size = new System.Drawing.Size(109, 23);
             this.cbxTipoCarroceria.TabIndex = 31;
@@ -198,7 +243,7 @@
             "Utilitário",
             "Outros"});
             this.cbxTipoRodado.Location = new System.Drawing.Point(261, 207);
-            this.cbxTipoRodado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbxTipoRodado.Margin = new System.Windows.Forms.Padding(2);
             this.cbxTipoRodado.Name = "cbxTipoRodado";
             this.cbxTipoRodado.Size = new System.Drawing.Size(109, 23);
             this.cbxTipoRodado.TabIndex = 29;
@@ -222,7 +267,7 @@
             "Tração",
             "Reboque"});
             this.cbxTipoVeiculo.Location = new System.Drawing.Point(135, 208);
-            this.cbxTipoVeiculo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbxTipoVeiculo.Margin = new System.Windows.Forms.Padding(2);
             this.cbxTipoVeiculo.Name = "cbxTipoVeiculo";
             this.cbxTipoVeiculo.Size = new System.Drawing.Size(109, 23);
             this.cbxTipoVeiculo.TabIndex = 27;
@@ -246,7 +291,7 @@
             "Próprio",
             "Terceiro"});
             this.cbxTipoPropVeiculo.Location = new System.Drawing.Point(13, 208);
-            this.cbxTipoPropVeiculo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbxTipoPropVeiculo.Margin = new System.Windows.Forms.Padding(2);
             this.cbxTipoPropVeiculo.Name = "cbxTipoPropVeiculo";
             this.cbxTipoPropVeiculo.Size = new System.Drawing.Size(109, 23);
             this.cbxTipoPropVeiculo.TabIndex = 25;
@@ -265,7 +310,7 @@
             // txbCapacidadeM3
             // 
             this.txbCapacidadeM3.Location = new System.Drawing.Point(412, 164);
-            this.txbCapacidadeM3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbCapacidadeM3.Margin = new System.Windows.Forms.Padding(2);
             this.txbCapacidadeM3.Name = "txbCapacidadeM3";
             this.txbCapacidadeM3.Size = new System.Drawing.Size(85, 21);
             this.txbCapacidadeM3.TabIndex = 23;
@@ -274,7 +319,7 @@
             // txbCapacidadeKg
             // 
             this.txbCapacidadeKg.Location = new System.Drawing.Point(311, 164);
-            this.txbCapacidadeKg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbCapacidadeKg.Margin = new System.Windows.Forms.Padding(2);
             this.txbCapacidadeKg.Name = "txbCapacidadeKg";
             this.txbCapacidadeKg.Size = new System.Drawing.Size(85, 21);
             this.txbCapacidadeKg.TabIndex = 22;
@@ -306,7 +351,7 @@
             // txbAntt
             // 
             this.txbAntt.Location = new System.Drawing.Point(192, 164);
-            this.txbAntt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbAntt.Margin = new System.Windows.Forms.Padding(2);
             this.txbAntt.MaxLength = 11;
             this.txbAntt.Name = "txbAntt";
             this.txbAntt.Size = new System.Drawing.Size(103, 21);
@@ -327,7 +372,7 @@
             // txbAnoModelo
             // 
             this.txbAnoModelo.Location = new System.Drawing.Point(113, 164);
-            this.txbAnoModelo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbAnoModelo.Margin = new System.Windows.Forms.Padding(2);
             this.txbAnoModelo.MaxLength = 4;
             this.txbAnoModelo.Name = "txbAnoModelo";
             this.txbAnoModelo.Size = new System.Drawing.Size(64, 21);
@@ -337,7 +382,7 @@
             // txbAnoFabricacao
             // 
             this.txbAnoFabricacao.Location = new System.Drawing.Point(13, 164);
-            this.txbAnoFabricacao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbAnoFabricacao.Margin = new System.Windows.Forms.Padding(2);
             this.txbAnoFabricacao.MaxLength = 4;
             this.txbAnoFabricacao.Name = "txbAnoFabricacao";
             this.txbAnoFabricacao.Size = new System.Drawing.Size(85, 21);
@@ -369,7 +414,7 @@
             // txbTara
             // 
             this.txbTara.Location = new System.Drawing.Point(412, 122);
-            this.txbTara.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbTara.Margin = new System.Windows.Forms.Padding(2);
             this.txbTara.Name = "txbTara";
             this.txbTara.Size = new System.Drawing.Size(85, 21);
             this.txbTara.TabIndex = 13;
@@ -378,7 +423,7 @@
             // txbRenavam
             // 
             this.txbRenavam.Location = new System.Drawing.Point(311, 122);
-            this.txbRenavam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbRenavam.Margin = new System.Windows.Forms.Padding(2);
             this.txbRenavam.MaxLength = 9;
             this.txbRenavam.Name = "txbRenavam";
             this.txbRenavam.Size = new System.Drawing.Size(85, 21);
@@ -411,7 +456,7 @@
             // txbModelo
             // 
             this.txbModelo.Location = new System.Drawing.Point(13, 122);
-            this.txbModelo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbModelo.Margin = new System.Windows.Forms.Padding(2);
             this.txbModelo.Name = "txbModelo";
             this.txbModelo.Size = new System.Drawing.Size(281, 21);
             this.txbModelo.TabIndex = 9;
@@ -432,7 +477,7 @@
             // txbMarca
             // 
             this.txbMarca.Location = new System.Drawing.Point(311, 77);
-            this.txbMarca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbMarca.Margin = new System.Windows.Forms.Padding(2);
             this.txbMarca.Name = "txbMarca";
             this.txbMarca.Size = new System.Drawing.Size(186, 21);
             this.txbMarca.TabIndex = 7;
@@ -451,7 +496,7 @@
             // txbCertificado
             // 
             this.txbCertificado.Location = new System.Drawing.Point(13, 77);
-            this.txbCertificado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbCertificado.Margin = new System.Windows.Forms.Padding(2);
             this.txbCertificado.Name = "txbCertificado";
             this.txbCertificado.Size = new System.Drawing.Size(281, 21);
             this.txbCertificado.TabIndex = 5;
@@ -502,7 +547,7 @@
             "Sergipe",
             "Tocantins"});
             this.cbxUF.Location = new System.Drawing.Point(168, 33);
-            this.cbxUF.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbxUF.Margin = new System.Windows.Forms.Padding(2);
             this.cbxUF.Name = "cbxUF";
             this.cbxUF.Size = new System.Drawing.Size(155, 23);
             this.cbxUF.TabIndex = 3;
@@ -523,7 +568,7 @@
             // txbPlaca
             // 
             this.txbPlaca.Location = new System.Drawing.Point(13, 34);
-            this.txbPlaca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbPlaca.Margin = new System.Windows.Forms.Padding(2);
             this.txbPlaca.Name = "txbPlaca";
             this.txbPlaca.Size = new System.Drawing.Size(109, 21);
             this.txbPlaca.TabIndex = 1;
@@ -545,7 +590,7 @@
             // 
             this.tabControlIdentificacao.Controls.Add(this.tabPageIdentificacao);
             this.tabControlIdentificacao.Location = new System.Drawing.Point(9, 32);
-            this.tabControlIdentificacao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControlIdentificacao.Margin = new System.Windows.Forms.Padding(2);
             this.tabControlIdentificacao.Name = "tabControlIdentificacao";
             this.tabControlIdentificacao.SelectedIndex = 0;
             this.tabControlIdentificacao.Size = new System.Drawing.Size(526, 314);
@@ -566,9 +611,9 @@
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.Location = new System.Drawing.Point(456, 351);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(5);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Padding = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btnCancelar.Padding = new System.Windows.Forms.Padding(1);
             this.btnCancelar.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 6;
@@ -576,67 +621,12 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Location = new System.Drawing.Point(0, 25);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(535, 25);
-            this.toolStrip1.TabIndex = 7;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripIncluir
-            // 
-            this.toolStripIncluir.Image = global::MeuCalhambeque.Properties.Resources.add;
-            this.toolStripIncluir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripIncluir.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripIncluir.Name = "toolStripIncluir";
-            this.toolStripIncluir.ShowDropDownArrow = false;
-            this.toolStripIncluir.Size = new System.Drawing.Size(60, 22);
-            this.toolStripIncluir.Text = "Incluir";
-            this.toolStripIncluir.ToolTipText = "Incluir (F1)";
-            this.toolStripIncluir.Click += new System.EventHandler(this.toolStripIncluir_Click);
-            // 
-            // toolStripExcluir
-            // 
-            this.toolStripExcluir.Image = global::MeuCalhambeque.Properties.Resources.btnDelete;
-            this.toolStripExcluir.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripExcluir.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripExcluir.Name = "toolStripExcluir";
-            this.toolStripExcluir.ShowDropDownArrow = false;
-            this.toolStripExcluir.Size = new System.Drawing.Size(61, 22);
-            this.toolStripExcluir.Text = "Excluir";
-            // 
-            // toolStripSalvar
-            // 
-            this.toolStripSalvar.Image = global::MeuCalhambeque.Properties.Resources.btnSave;
-            this.toolStripSalvar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripSalvar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripSalvar.Name = "toolStripSalvar";
-            this.toolStripSalvar.ShowDropDownArrow = false;
-            this.toolStripSalvar.Size = new System.Drawing.Size(58, 22);
-            this.toolStripSalvar.Text = "Salvar";
-            this.toolStripSalvar.ToolTipText = "Salvar (F2)";
-            this.toolStripSalvar.Click += new System.EventHandler(this.toolStripSalvar_Click);
-            // 
-            // toolStripLimpar
-            // 
-            this.toolStripLimpar.Image = global::MeuCalhambeque.Properties.Resources.clear;
-            this.toolStripLimpar.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripLimpar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripLimpar.Name = "toolStripLimpar";
-            this.toolStripLimpar.ShowDropDownArrow = false;
-            this.toolStripLimpar.Size = new System.Drawing.Size(64, 22);
-            this.toolStripLimpar.Text = "Limpar";
-            this.toolStripLimpar.ToolTipText = "Limpar (F3)";
-            this.toolStripLimpar.Click += new System.EventHandler(this.toolStripLimpar_Click);
-            // 
             // FrmVeiculo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(535, 382);
-            this.Controls.Add(this.toolStrip1);
+            this.ClientSize = new System.Drawing.Size(535, 378);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnOk);
             this.Controls.Add(this.tabControlIdentificacao);
@@ -644,7 +634,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "FrmVeiculo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -706,6 +696,5 @@
         private System.Windows.Forms.Label lblProprietario;
         protected System.Windows.Forms.Button btnOk;
         protected System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.ToolStrip toolStrip1;
     }
 }
