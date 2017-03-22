@@ -11,13 +11,23 @@ namespace MeuCalhambeque
 {
     public partial class FrmDespesa : Form, ICaminhoDoArquivo
     {
-        private string Caminho = Directory.GetCurrentDirectory(); //diretorio corrente do aplicativo
+        private string Caminho = Directory.GetCurrentDirectory(); //diretório corrente do aplicativo
         private string _diretorioArquivo { get { return CaminhoArquivo(); } }
         private List<Veiculo> _listVeiculos = new List<Veiculo>();
 
         public FrmDespesa()
         {
             InitializeComponent();
+        }
+
+        private void FrmDespesa_Load(object sender, EventArgs e)
+        {
+            LerArquivo();
+
+            foreach (var item in _listVeiculos)
+            {
+                cbxVeiculoComb.Items.Add(item.Modelo);
+            }
         }
 
         #region Define o background ao entrar e sair dos campos
@@ -92,20 +102,35 @@ namespace MeuCalhambeque
 
         private void CalcularVlrTotal(object sender, EventArgs e)
         {
-            if (txbValorUniCombustivel.Text != "" && txbQuantidadeCombustivel.Text != "")
+            if (txbValorUniCombustivel.Text != "" && txbQuantidadeCombustivel.Text != "" && txbValorUniCombustivel.Text != "0" && txbQuantidadeCombustivel.Text != "0")
                 lblVlrTotalCombustivel.Text = (float.Parse(txbValorUniCombustivel.Text) * float.Parse(txbQuantidadeCombustivel.Text)).ToString();
             else
                 lblVlrTotalCombustivel.Text = "0,00";
         }
 
+        /// <summary>
+        /// Retorna o caminho da classe Despesa
+        /// </summary>
+        /// <returns></returns>
         public string CaminhoArquivo()
         {
             return Path.Combine(Caminho, this.ToString() + ".txt");
         }
 
+        /// <summary>
+        /// Retorna o caminho da classe Veiculo
+        /// </summary>
+        /// <returns>Retorna o caminho da classe Veiculo</returns>
+        public string CaminhoArquivoVeiculo()
+        {
+            Veiculo veic = new Veiculo();
+
+            return Path.Combine(Caminho, veic.ToString() + ".txt");
+        }
+
         private void LerArquivo()
         {
-            string[] array = File.ReadAllLines(Caminho);
+            string[] array = File.ReadAllLines(CaminhoArquivoVeiculo());
 
             for (int i = 0; i < array.Length; i++)
             {
@@ -173,14 +198,17 @@ namespace MeuCalhambeque
         }
         #endregion
 
-        private void FrmDespesa_Load(object sender, EventArgs e)
+        #region Evento ao Selecionar o item no TextBox
+        private void cbxVeiculoComb_SelectedValueChanged(object sender, EventArgs e)
         {
             LerArquivo();
 
             foreach (var item in _listVeiculos)
             {
-                cbxVeiculoComb.Items.Add(item.Modelo);
+                if (cbxVeiculoComb.Text == item.Modelo)
+                    txbPlacaComb.Text = item.Placa;
             }
         }
+        #endregion
     }
 }
