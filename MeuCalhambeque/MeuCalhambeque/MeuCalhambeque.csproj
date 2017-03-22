@@ -152,7 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ArquivoDeTexto\ArquivoDeTexto.csproj">
-      <Project>{D7379978-FFF9-4169-8D54-AA5FFB42B1BD}</Project>
+      <Project>{d7379978-fff9-4169-8d54-aa5ffb42b1bd}</Project>
       <Name>ArquivoDeTexto</Name>
     </ProjectReference>
     <ProjectReference Include="..\Entidade\Entidade.csproj">

@@ -1,53 +1,47 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidade;
+using System.IO;
+using ArquivoDeTexto;
 
 namespace MeuCalhambeque
 {
-    public partial class FrmDespesa : Form
+    public partial class FrmDespesa : Form, ICaminhoDoArquivo
     {
+        private string Caminho = Directory.GetCurrentDirectory(); //diretorio corrente do aplicativo
+        private string _diretorioArquivo { get { return CaminhoArquivo(); } }
+        private List<Veiculo> _listVeiculos = new List<Veiculo>();
+
         public FrmDespesa()
         {
             InitializeComponent();
         }
 
-        private void tabCombustivel_Click(object sender, EventArgs e)
-        {
-
-        }
-
         #region Define o background ao entrar e sair dos campos
         private void txbDataCombustivel_Enter(object sender, EventArgs e)
         {
-            txbDataCombustivel.BackColor = Color.White;
+            dtDataAbastecimento.BackColor = Color.White;
         }
 
         private void txbDataCombustivel_Leave(object sender, EventArgs e)
         {
-            if (txbDataCombustivel.Text == "  /  /")
+            if (dtDataAbastecimento.Text == "  /  /")
             {
-                txbDataCombustivel.BackColor = Color.Salmon;
+                dtDataAbastecimento.BackColor = Color.Salmon;
             }
         }
 
         private void txbValorTotCombustivel_Enter(object sender, EventArgs e)
         {
-            txbValorTotCombustivel.BackColor = Color.White;
+            //Do not implements code            
         }
 
         private void txbValorTotCombustivel_Leave(object sender, EventArgs e)
         {
-            if (txbValorTotCombustivel.Text == "")
-            {
-                txbValorTotCombustivel.BackColor = Color.Salmon;
-            }
+            //Do not implements code
         }
 
         private void txbQuantidadeCombustivel_Enter(object sender, EventArgs e)
@@ -77,46 +71,116 @@ namespace MeuCalhambeque
         }
         #endregion
 
-        private void label5_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txbValorTotCombustivel_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        #region Eventos ao Clicar no Mouse
         private void btnOkCombustivel_Click(object sender, EventArgs e)
         {
-
         }
+
+        private void btnCancelarCombustivel_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Confirma o cancelamento da inclusão?", "Cancelar", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                this.Close();
+            cbxVeiculoComb.Select();
+        }
+        #endregion
 
         #region Métodos Auxiliares        
         public void CapturaDadosCombustivel()
         {
-            /*Combustivel comb = new Combustivel();
-            veic.Placa = txbPlaca.Text;
-            veic.UF = cbxUF.Text;
-            veic.CertificadoPropriedade = txbCertificado.Text;
-            veic.Marca = txbMarca.Text;
-            veic.Modelo = txbModelo.Text;
-            veic.Renavam = int.Parse(txbRenavam.Text);
-            veic.Tara = float.Parse(txbTara.Text);
-            veic.AnoFabricacao = int.Parse(txbAnoFabricacao.Text);
-            veic.AnoModelo = int.Parse(txbAnoModelo.Text);
-            veic.Antt = long.Parse(txbAntt.Text);
-            veic.CapacidadeKg = float.Parse(txbCapacidadeKg.Text);
-            veic.CapacidadeM3 = float.Parse(txbCapacidadeM3.Text);
-            veic.TipoPropVeiculo = cbxTipoPropVeiculo.Text;
-            veic.TipoVeiculo = cbxTipoVeiculo.Text;
-            veic.TipoRodado = cbxTipoRodado.Text;
-            veic.TipoCarroceria = cbxTipoRodado.Text;
-            veic.NomePropVeiculo = txbProprietario.Text;
+            //A ser implementado           
+        }
 
-            veic.ListaVeiculo.Add(veic);
-            veic.SalvarVeiculo();*/
+        private void CalcularVlrTotal(object sender, EventArgs e)
+        {
+            if (txbValorUniCombustivel.Text != "" && txbQuantidadeCombustivel.Text != "")
+                lblVlrTotalCombustivel.Text = (float.Parse(txbValorUniCombustivel.Text) * float.Parse(txbQuantidadeCombustivel.Text)).ToString();
+            else
+                lblVlrTotalCombustivel.Text = "0,00";
+        }
+
+        public string CaminhoArquivo()
+        {
+            return Path.Combine(Caminho, this.ToString() + ".txt");
+        }
+
+        private void LerArquivo()
+        {
+            string[] array = File.ReadAllLines(Caminho);
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                Veiculo veic = new Veiculo();
+
+                string[] auxiliar = array[i].Split('|');
+
+                veic.Modelo = auxiliar[4];
+                veic.Placa = auxiliar[0];
+
+                _listVeiculos.Add(veic);
+            }
         }
         #endregion
+
+        #region Código Automático
+        private void lblVlrTotalCombustivel_TextChanged(object sender, EventArgs e)
+        {
+            //Do not implements code           
+        }
+
+        private void label5_Enter(object sender, EventArgs e)
+        {
+            //Do not implements code
+        }
+
+        private void txbValorTotCombustivel_TextChanged(object sender, EventArgs e)
+        {
+            //Do not implements code
+        }
+
+        private void tabCombustivel_Click(object sender, EventArgs e)
+        {
+            //Do not implements code
+        }
+        #endregion
+
+        #region Eventos KeyPress
+        private void txbValorUniCombustivel_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            TextBox txb = (TextBox)sender;
+
+            //Validação para permitir somente números e vírgulas.
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(Keys.Back))
+            {
+                if (e.KeyChar == ',')
+                    e.Handled = (txb.Text.Contains(','));
+                else
+                    e.Handled = true;
+            }
+        }
+
+        private void txbQuantidadeCombustivel_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            TextBox txb = (TextBox)sender;
+
+            //Validação para permitir somente números e vírgulas.
+            if (!char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(Keys.Back))
+            {
+                if (e.KeyChar == ',')
+                    e.Handled = (txb.Text.Contains(','));
+                else
+                    e.Handled = true;
+            }
+        }
+        #endregion
+
+        private void FrmDespesa_Load(object sender, EventArgs e)
+        {
+            LerArquivo();
+
+            foreach (var item in _listVeiculos)
+            {
+                cbxVeiculoComb.Items.Add(item.Modelo);
+            }
+        }
     }
 }

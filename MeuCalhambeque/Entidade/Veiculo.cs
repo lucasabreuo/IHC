@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using ArquivoDeTexto;
+using System.IO;
 
 namespace Entidade
 {
-    public class Veiculo : CaminhoDoArquivo
+    public class Veiculo : ICaminhoDoArquivo
     {
         private string _placa;
         private string _UF;
@@ -22,11 +23,17 @@ namespace Entidade
         private string _tipoVeiculo;
         private string _tipoRodado;
         private string _tipoCarroceria;
-        private string _nomePropVeiculo;
+        private string _nomePropVeiculo;        
         private string _diretorioArquivo { get { return CaminhoArquivo(); } }
+        private string Caminho = Directory.GetCurrentDirectory(); //diretorio corrente do aplicativo
 
         List<Veiculo> _listaVeiculo = new List<Veiculo>();
         Arquivo _arquivo;
+
+        public string CaminhoArquivo()
+        {
+            return Path.Combine(Caminho, this.ToString() + ".txt");
+        }
 
         #region Modificadores de Acesso
         public List<Veiculo> ListaVeiculo
@@ -358,7 +365,7 @@ namespace Entidade
             }
 
             return mensagem;
-        }
+        }        
         #endregion
     }
 }

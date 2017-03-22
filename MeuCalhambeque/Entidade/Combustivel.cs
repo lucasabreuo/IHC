@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using ArquivoDeTexto;
+using System.IO;
 
 namespace Entidade
 {
-    public class Combustivel : CaminhoDoArquivo
+    public class Combustivel : ICaminhoDoArquivo
     {
         public string _ID;
         public string _data;
@@ -13,10 +14,16 @@ namespace Entidade
         public float _quantidade;
         public float _valorTotal;
         private string _diretorioArquivo { get { return CaminhoArquivo(); } }
+        private string Caminho = Directory.GetCurrentDirectory(); //diretorio corrente do aplicativo
 
         List<Combustivel> _listaCombustivel = new List<Combustivel>();
         Arquivo _arquivo;
-        
+
+        public string CaminhoArquivo()
+        {
+            return Path.Combine(Caminho, this.ToString() + ".txt");
+        }
+
         #region Modificador de acesso
         public string ID
         {
