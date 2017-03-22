@@ -54,7 +54,6 @@
             this.toolStripDropDownButton4 = new System.Windows.Forms.ToolStripDropDownButton();
             this.tabEstacionamento = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -103,6 +102,106 @@
             this.btnOkCombustivel = new System.Windows.Forms.Button();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.dtSeguro = new System.Windows.Forms.DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txbValorSeguro = new System.Windows.Forms.TextBox();
+            this.ckbLancRecorrenteSeg = new System.Windows.Forms.CheckBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.dtManutencao = new System.Windows.Forms.DateTimePicker();
+            this.lblValorParcelaMan = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txbValorManutencao = new System.Windows.Forms.TextBox();
+            this.cmbParceladoMan = new System.Windows.Forms.ComboBox();
+            this.rtbDescricaoMan = new System.Windows.Forms.RichTextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.rtbDescricaoMel = new System.Windows.Forms.RichTextBox();
+            this.cmbParceladoMel = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txbValorMelhoria = new System.Windows.Forms.TextBox();
+            this.dtMelhoria = new System.Windows.Forms.DateTimePicker();
+            this.lblValorParcelaMel = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.rtbDescricaoImp = new System.Windows.Forms.RichTextBox();
+            this.cmbParceladoImp = new System.Windows.Forms.ComboBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.txbValorImposto = new System.Windows.Forms.TextBox();
+            this.dtImposto = new System.Windows.Forms.DateTimePicker();
+            this.lblValorPArcelaImp = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.rtbDescricaoMul = new System.Windows.Forms.RichTextBox();
+            this.cmbParceladoMul = new System.Windows.Forms.ComboBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.txbValorMulta = new System.Windows.Forms.TextBox();
+            this.dtMulta = new System.Windows.Forms.DateTimePicker();
+            this.lblValorParcelaMul = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.rtbDescricaoOutro = new System.Windows.Forms.RichTextBox();
+            this.cmbParceladoOut = new System.Windows.Forms.ComboBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.txbValorOutro = new System.Windows.Forms.TextBox();
+            this.dtOutro = new System.Windows.Forms.DateTimePicker();
+            this.lblValorParcelaOut = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.lblValorParcOut = new System.Windows.Forms.Label();
+            this.lblParceladoOut = new System.Windows.Forms.Label();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label45 = new System.Windows.Forms.Label();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.rabLancRecorOut = new System.Windows.Forms.RadioButton();
+            this.rabPagParceladoOut = new System.Windows.Forms.RadioButton();
+            this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.chbLancRecEstac = new System.Windows.Forms.CheckBox();
+            this.dtEstacionamento = new System.Windows.Forms.DateTimePicker();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txbValorEstac = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabControlDespesas.SuspendLayout();
             this.tabCombustivel.SuspendLayout();
             this.gbVeiculoComb.SuspendLayout();
@@ -124,6 +223,19 @@
             this.tabOutros.SuspendLayout();
             this.toolStripOutros.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.groupBox10.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            this.groupBox13.SuspendLayout();
+            this.groupBox14.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControlDespesas
@@ -149,7 +261,7 @@
             this.tabCombustivel.Controls.Add(this.toolStripCombustivel);
             this.tabCombustivel.Location = new System.Drawing.Point(4, 22);
             this.tabCombustivel.Name = "tabCombustivel";
-            this.tabCombustivel.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabCombustivel.Padding = new System.Windows.Forms.Padding(3);
             this.tabCombustivel.Size = new System.Drawing.Size(638, 379);
             this.tabCombustivel.TabIndex = 0;
             this.tabCombustivel.Text = "Combustível";
@@ -163,9 +275,9 @@
             this.gbVeiculoComb.Controls.Add(this.cbxVeiculoComb);
             this.gbVeiculoComb.Controls.Add(this.lblVeiculoComb);
             this.gbVeiculoComb.Location = new System.Drawing.Point(6, 32);
-            this.gbVeiculoComb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbVeiculoComb.Margin = new System.Windows.Forms.Padding(2);
             this.gbVeiculoComb.Name = "gbVeiculoComb";
-            this.gbVeiculoComb.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gbVeiculoComb.Padding = new System.Windows.Forms.Padding(2);
             this.gbVeiculoComb.Size = new System.Drawing.Size(627, 127);
             this.gbVeiculoComb.TabIndex = 1;
             this.gbVeiculoComb.TabStop = false;
@@ -238,7 +350,7 @@
             this.dtDataAbastecimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtDataAbastecimento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtDataAbastecimento.Location = new System.Drawing.Point(9, 43);
-            this.dtDataAbastecimento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtDataAbastecimento.Margin = new System.Windows.Forms.Padding(2);
             this.dtDataAbastecimento.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
             this.dtDataAbastecimento.Name = "dtDataAbastecimento";
             this.dtDataAbastecimento.Size = new System.Drawing.Size(137, 21);
@@ -406,6 +518,7 @@
             // 
             // tabEstacionamento
             // 
+            this.tabEstacionamento.Controls.Add(this.groupBox14);
             this.tabEstacionamento.Controls.Add(this.groupBox1);
             this.tabEstacionamento.Controls.Add(this.toolStripEstacionamento);
             this.tabEstacionamento.Location = new System.Drawing.Point(4, 22);
@@ -422,22 +535,13 @@
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(2, 32);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(633, 127);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Veículo";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(171, 44);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(116, 21);
-            this.textBox1.TabIndex = 14;
             // 
             // label1
             // 
@@ -530,6 +634,8 @@
             // 
             // tabSeguro
             // 
+            this.tabSeguro.Controls.Add(this.groupBox3);
+            this.tabSeguro.Controls.Add(this.groupBox2);
             this.tabSeguro.Controls.Add(this.toolStripSeguro);
             this.tabSeguro.Location = new System.Drawing.Point(4, 22);
             this.tabSeguro.Name = "tabSeguro";
@@ -597,10 +703,12 @@
             // 
             // tabManutencao
             // 
+            this.tabManutencao.Controls.Add(this.groupBox5);
+            this.tabManutencao.Controls.Add(this.groupBox4);
             this.tabManutencao.Controls.Add(this.toolStripManutencao);
             this.tabManutencao.Location = new System.Drawing.Point(4, 22);
             this.tabManutencao.Name = "tabManutencao";
-            this.tabManutencao.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabManutencao.Padding = new System.Windows.Forms.Padding(3);
             this.tabManutencao.Size = new System.Drawing.Size(638, 379);
             this.tabManutencao.TabIndex = 1;
             this.tabManutencao.Text = "Manutenção";
@@ -665,6 +773,8 @@
             // 
             // tabMelhorias
             // 
+            this.tabMelhorias.Controls.Add(this.groupBox7);
+            this.tabMelhorias.Controls.Add(this.groupBox6);
             this.tabMelhorias.Controls.Add(this.toolStripMelhorias);
             this.tabMelhorias.Location = new System.Drawing.Point(4, 22);
             this.tabMelhorias.Name = "tabMelhorias";
@@ -732,6 +842,8 @@
             // 
             // tabImpostos
             // 
+            this.tabImpostos.Controls.Add(this.groupBox8);
+            this.tabImpostos.Controls.Add(this.groupBox9);
             this.tabImpostos.Controls.Add(this.toolStripImpostos);
             this.tabImpostos.Location = new System.Drawing.Point(4, 22);
             this.tabImpostos.Name = "tabImpostos";
@@ -799,6 +911,8 @@
             // 
             // tabMultas
             // 
+            this.tabMultas.Controls.Add(this.groupBox10);
+            this.tabMultas.Controls.Add(this.groupBox11);
             this.tabMultas.Controls.Add(this.toolStripMultas);
             this.tabMultas.Location = new System.Drawing.Point(4, 22);
             this.tabMultas.Name = "tabMultas";
@@ -866,6 +980,8 @@
             // 
             // tabOutros
             // 
+            this.tabOutros.Controls.Add(this.groupBox12);
+            this.tabOutros.Controls.Add(this.groupBox13);
             this.tabOutros.Controls.Add(this.toolStripOutros);
             this.tabOutros.Location = new System.Drawing.Point(4, 22);
             this.tabOutros.Name = "tabOutros";
@@ -935,9 +1051,9 @@
             // 
             this.btnCancelarCombustivel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarCombustivel.Location = new System.Drawing.Point(564, 411);
-            this.btnCancelarCombustivel.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnCancelarCombustivel.Margin = new System.Windows.Forms.Padding(5);
             this.btnCancelarCombustivel.Name = "btnCancelarCombustivel";
-            this.btnCancelarCombustivel.Padding = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btnCancelarCombustivel.Padding = new System.Windows.Forms.Padding(1);
             this.btnCancelarCombustivel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.btnCancelarCombustivel.Size = new System.Drawing.Size(75, 23);
             this.btnCancelarCombustivel.TabIndex = 2;
@@ -960,6 +1076,1211 @@
             // 
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.textBox2);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.comboBox2);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Location = new System.Drawing.Point(2, 32);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Size = new System.Drawing.Size(633, 127);
+            this.groupBox2.TabIndex = 7;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Veículo";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(171, 44);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(116, 21);
+            this.textBox2.TabIndex = 14;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(168, 27);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 15);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Placa:";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(12, 44);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(137, 23);
+            this.comboBox2.TabIndex = 14;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(9, 27);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(58, 15);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Veículo:";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.ckbLancRecorrenteSeg);
+            this.groupBox3.Controls.Add(this.dtSeguro);
+            this.groupBox3.Controls.Add(this.label6);
+            this.groupBox3.Controls.Add(this.label9);
+            this.groupBox3.Controls.Add(this.txbValorSeguro);
+            this.groupBox3.Location = new System.Drawing.Point(2, 162);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(633, 216);
+            this.groupBox3.TabIndex = 8;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Dados";
+            // 
+            // dtSeguro
+            // 
+            this.dtSeguro.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtSeguro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtSeguro.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtSeguro.Location = new System.Drawing.Point(9, 43);
+            this.dtSeguro.Margin = new System.Windows.Forms.Padding(2);
+            this.dtSeguro.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            this.dtSeguro.Name = "dtSeguro";
+            this.dtSeguro.Size = new System.Drawing.Size(137, 21);
+            this.dtSeguro.TabIndex = 1;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(6, 26);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(206, 15);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Data de Pagamento do seguro:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(6, 81);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(44, 15);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "Valor:";
+            // 
+            // txbValorSeguro
+            // 
+            this.txbValorSeguro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbValorSeguro.Location = new System.Drawing.Point(9, 98);
+            this.txbValorSeguro.Name = "txbValorSeguro";
+            this.txbValorSeguro.Size = new System.Drawing.Size(137, 21);
+            this.txbValorSeguro.TabIndex = 5;
+            this.txbValorSeguro.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
+            // ckbLancRecorrenteSeg
+            // 
+            this.ckbLancRecorrenteSeg.AutoSize = true;
+            this.ckbLancRecorrenteSeg.Location = new System.Drawing.Point(171, 102);
+            this.ckbLancRecorrenteSeg.Name = "ckbLancRecorrenteSeg";
+            this.ckbLancRecorrenteSeg.Size = new System.Drawing.Size(190, 17);
+            this.ckbLancRecorrenteSeg.TabIndex = 10;
+            this.ckbLancRecorrenteSeg.Text = "Lançamento recorrente (12 meses)";
+            this.ckbLancRecorrenteSeg.UseVisualStyleBackColor = true;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.textBox3);
+            this.groupBox4.Controls.Add(this.label5);
+            this.groupBox4.Controls.Add(this.comboBox3);
+            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Location = new System.Drawing.Point(6, 32);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Size = new System.Drawing.Size(627, 127);
+            this.groupBox4.TabIndex = 8;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Veículo";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(171, 44);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(116, 21);
+            this.textBox3.TabIndex = 14;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(168, 27);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(47, 15);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Placa:";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(12, 44);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(137, 23);
+            this.comboBox3.TabIndex = 14;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(9, 27);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(58, 15);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Veículo:";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.label14);
+            this.groupBox5.Controls.Add(this.rtbDescricaoMan);
+            this.groupBox5.Controls.Add(this.cmbParceladoMan);
+            this.groupBox5.Controls.Add(this.label11);
+            this.groupBox5.Controls.Add(this.txbValorManutencao);
+            this.groupBox5.Controls.Add(this.dtManutencao);
+            this.groupBox5.Controls.Add(this.lblValorParcelaMan);
+            this.groupBox5.Controls.Add(this.label10);
+            this.groupBox5.Controls.Add(this.label12);
+            this.groupBox5.Controls.Add(this.label13);
+            this.groupBox5.Location = new System.Drawing.Point(6, 164);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(627, 216);
+            this.groupBox5.TabIndex = 9;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Dados";
+            // 
+            // dtManutencao
+            // 
+            this.dtManutencao.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtManutencao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtManutencao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtManutencao.Location = new System.Drawing.Point(9, 43);
+            this.dtManutencao.Margin = new System.Windows.Forms.Padding(2);
+            this.dtManutencao.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            this.dtManutencao.Name = "dtManutencao";
+            this.dtManutencao.Size = new System.Drawing.Size(137, 21);
+            this.dtManutencao.TabIndex = 1;
+            // 
+            // lblValorParcelaMan
+            // 
+            this.lblValorParcelaMan.AutoSize = true;
+            this.lblValorParcelaMan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValorParcelaMan.Location = new System.Drawing.Point(349, 99);
+            this.lblValorParcelaMan.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblValorParcelaMan.Name = "lblValorParcelaMan";
+            this.lblValorParcelaMan.Size = new System.Drawing.Size(36, 17);
+            this.lblValorParcelaMan.TabIndex = 9;
+            this.lblValorParcelaMan.Text = "0,00";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(6, 26);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(144, 15);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Data da manutenção:";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(321, 81);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(96, 15);
+            this.label12.TabIndex = 8;
+            this.label12.Text = "Valor parcela:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(187, 81);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(100, 15);
+            this.label13.TabIndex = 4;
+            this.label13.Text = "Parcelado em:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(9, 81);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(44, 15);
+            this.label11.TabIndex = 10;
+            this.label11.Text = "Valor:";
+            // 
+            // txbValorManutencao
+            // 
+            this.txbValorManutencao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbValorManutencao.Location = new System.Drawing.Point(9, 99);
+            this.txbValorManutencao.Name = "txbValorManutencao";
+            this.txbValorManutencao.Size = new System.Drawing.Size(137, 21);
+            this.txbValorManutencao.TabIndex = 11;
+            // 
+            // cmbParceladoMan
+            // 
+            this.cmbParceladoMan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbParceladoMan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbParceladoMan.FormattingEnabled = true;
+            this.cmbParceladoMan.Items.AddRange(new object[] {
+            "1 x",
+            "2 x",
+            "3 x",
+            "4 x",
+            "5 x",
+            "6 x",
+            "7 x",
+            "8 x",
+            "9 x",
+            "10 x",
+            "11 x",
+            "12 x",
+            "13 x",
+            "14 x",
+            "15 x",
+            "16 x",
+            "17 x",
+            "18 x",
+            "19 x",
+            "20 x"});
+            this.cmbParceladoMan.Location = new System.Drawing.Point(190, 99);
+            this.cmbParceladoMan.Name = "cmbParceladoMan";
+            this.cmbParceladoMan.Size = new System.Drawing.Size(97, 23);
+            this.cmbParceladoMan.TabIndex = 16;
+            // 
+            // rtbDescricaoMan
+            // 
+            this.rtbDescricaoMan.Location = new System.Drawing.Point(9, 161);
+            this.rtbDescricaoMan.Name = "rtbDescricaoMan";
+            this.rtbDescricaoMan.Size = new System.Drawing.Size(612, 41);
+            this.rtbDescricaoMan.TabIndex = 17;
+            this.rtbDescricaoMan.Text = "";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(9, 143);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(65, 15);
+            this.label14.TabIndex = 18;
+            this.label14.Text = "Descrição:";
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.textBox5);
+            this.groupBox6.Controls.Add(this.label15);
+            this.groupBox6.Controls.Add(this.comboBox4);
+            this.groupBox6.Controls.Add(this.label16);
+            this.groupBox6.Location = new System.Drawing.Point(2, 32);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox6.Size = new System.Drawing.Size(633, 127);
+            this.groupBox6.TabIndex = 8;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Veículo";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(171, 44);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
+            this.textBox5.Size = new System.Drawing.Size(116, 21);
+            this.textBox5.TabIndex = 14;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(168, 27);
+            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(47, 15);
+            this.label15.TabIndex = 15;
+            this.label15.Text = "Placa:";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(12, 44);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(137, 23);
+            this.comboBox4.TabIndex = 14;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(9, 27);
+            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(58, 15);
+            this.label16.TabIndex = 0;
+            this.label16.Text = "Veículo:";
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.label17);
+            this.groupBox7.Controls.Add(this.rtbDescricaoMel);
+            this.groupBox7.Controls.Add(this.cmbParceladoMel);
+            this.groupBox7.Controls.Add(this.label18);
+            this.groupBox7.Controls.Add(this.txbValorMelhoria);
+            this.groupBox7.Controls.Add(this.dtMelhoria);
+            this.groupBox7.Controls.Add(this.lblValorParcelaMel);
+            this.groupBox7.Controls.Add(this.label20);
+            this.groupBox7.Controls.Add(this.label21);
+            this.groupBox7.Controls.Add(this.label22);
+            this.groupBox7.Location = new System.Drawing.Point(2, 165);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(633, 211);
+            this.groupBox7.TabIndex = 10;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "Dados";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(9, 143);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(65, 15);
+            this.label17.TabIndex = 18;
+            this.label17.Text = "Descrição:";
+            // 
+            // rtbDescricaoMel
+            // 
+            this.rtbDescricaoMel.Location = new System.Drawing.Point(9, 161);
+            this.rtbDescricaoMel.Name = "rtbDescricaoMel";
+            this.rtbDescricaoMel.Size = new System.Drawing.Size(612, 41);
+            this.rtbDescricaoMel.TabIndex = 17;
+            this.rtbDescricaoMel.Text = "";
+            // 
+            // cmbParceladoMel
+            // 
+            this.cmbParceladoMel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbParceladoMel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbParceladoMel.FormattingEnabled = true;
+            this.cmbParceladoMel.Items.AddRange(new object[] {
+            "1 x",
+            "2 x",
+            "3 x",
+            "4 x",
+            "5 x",
+            "6 x",
+            "7 x",
+            "8 x",
+            "9 x",
+            "10 x",
+            "11 x",
+            "12 x",
+            "13 x",
+            "14 x",
+            "15 x",
+            "16 x",
+            "17 x",
+            "18 x",
+            "19 x",
+            "20 x"});
+            this.cmbParceladoMel.Location = new System.Drawing.Point(190, 99);
+            this.cmbParceladoMel.Name = "cmbParceladoMel";
+            this.cmbParceladoMel.Size = new System.Drawing.Size(97, 23);
+            this.cmbParceladoMel.TabIndex = 16;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(9, 81);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(44, 15);
+            this.label18.TabIndex = 10;
+            this.label18.Text = "Valor:";
+            // 
+            // txbValorMelhoria
+            // 
+            this.txbValorMelhoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbValorMelhoria.Location = new System.Drawing.Point(9, 99);
+            this.txbValorMelhoria.Name = "txbValorMelhoria";
+            this.txbValorMelhoria.Size = new System.Drawing.Size(137, 21);
+            this.txbValorMelhoria.TabIndex = 11;
+            // 
+            // dtMelhoria
+            // 
+            this.dtMelhoria.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtMelhoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtMelhoria.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtMelhoria.Location = new System.Drawing.Point(9, 43);
+            this.dtMelhoria.Margin = new System.Windows.Forms.Padding(2);
+            this.dtMelhoria.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            this.dtMelhoria.Name = "dtMelhoria";
+            this.dtMelhoria.Size = new System.Drawing.Size(137, 21);
+            this.dtMelhoria.TabIndex = 1;
+            // 
+            // lblValorParcelaMel
+            // 
+            this.lblValorParcelaMel.AutoSize = true;
+            this.lblValorParcelaMel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValorParcelaMel.Location = new System.Drawing.Point(349, 99);
+            this.lblValorParcelaMel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblValorParcelaMel.Name = "lblValorParcelaMel";
+            this.lblValorParcelaMel.Size = new System.Drawing.Size(36, 17);
+            this.lblValorParcelaMel.TabIndex = 9;
+            this.lblValorParcelaMel.Text = "0,00";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(6, 26);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(122, 15);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "Data da melhoria:";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(321, 81);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(96, 15);
+            this.label21.TabIndex = 8;
+            this.label21.Text = "Valor parcela:";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(187, 81);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(100, 15);
+            this.label22.TabIndex = 4;
+            this.label22.Text = "Parcelado em:";
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.label23);
+            this.groupBox8.Controls.Add(this.rtbDescricaoImp);
+            this.groupBox8.Controls.Add(this.cmbParceladoImp);
+            this.groupBox8.Controls.Add(this.label24);
+            this.groupBox8.Controls.Add(this.txbValorImposto);
+            this.groupBox8.Controls.Add(this.dtImposto);
+            this.groupBox8.Controls.Add(this.lblValorPArcelaImp);
+            this.groupBox8.Controls.Add(this.label26);
+            this.groupBox8.Controls.Add(this.label27);
+            this.groupBox8.Controls.Add(this.label28);
+            this.groupBox8.Location = new System.Drawing.Point(2, 165);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(633, 211);
+            this.groupBox8.TabIndex = 12;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Dados";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(9, 143);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(65, 15);
+            this.label23.TabIndex = 18;
+            this.label23.Text = "Descrição:";
+            // 
+            // rtbDescricaoImp
+            // 
+            this.rtbDescricaoImp.Location = new System.Drawing.Point(9, 161);
+            this.rtbDescricaoImp.Name = "rtbDescricaoImp";
+            this.rtbDescricaoImp.Size = new System.Drawing.Size(612, 41);
+            this.rtbDescricaoImp.TabIndex = 17;
+            this.rtbDescricaoImp.Text = "";
+            // 
+            // cmbParceladoImp
+            // 
+            this.cmbParceladoImp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbParceladoImp.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbParceladoImp.FormattingEnabled = true;
+            this.cmbParceladoImp.Items.AddRange(new object[] {
+            "1 x",
+            "2 x",
+            "3 x",
+            "4 x",
+            "5 x",
+            "6 x",
+            "7 x",
+            "8 x",
+            "9 x",
+            "10 x",
+            "11 x",
+            "12 x",
+            "13 x",
+            "14 x",
+            "15 x",
+            "16 x",
+            "17 x",
+            "18 x",
+            "19 x",
+            "20 x"});
+            this.cmbParceladoImp.Location = new System.Drawing.Point(190, 99);
+            this.cmbParceladoImp.Name = "cmbParceladoImp";
+            this.cmbParceladoImp.Size = new System.Drawing.Size(97, 23);
+            this.cmbParceladoImp.TabIndex = 16;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(9, 81);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(44, 15);
+            this.label24.TabIndex = 10;
+            this.label24.Text = "Valor:";
+            // 
+            // txbValorImposto
+            // 
+            this.txbValorImposto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbValorImposto.Location = new System.Drawing.Point(9, 99);
+            this.txbValorImposto.Name = "txbValorImposto";
+            this.txbValorImposto.Size = new System.Drawing.Size(137, 21);
+            this.txbValorImposto.TabIndex = 11;
+            // 
+            // dtImposto
+            // 
+            this.dtImposto.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtImposto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtImposto.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtImposto.Location = new System.Drawing.Point(9, 43);
+            this.dtImposto.Margin = new System.Windows.Forms.Padding(2);
+            this.dtImposto.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            this.dtImposto.Name = "dtImposto";
+            this.dtImposto.Size = new System.Drawing.Size(137, 21);
+            this.dtImposto.TabIndex = 1;
+            // 
+            // lblValorPArcelaImp
+            // 
+            this.lblValorPArcelaImp.AutoSize = true;
+            this.lblValorPArcelaImp.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValorPArcelaImp.Location = new System.Drawing.Point(349, 99);
+            this.lblValorPArcelaImp.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblValorPArcelaImp.Name = "lblValorPArcelaImp";
+            this.lblValorPArcelaImp.Size = new System.Drawing.Size(36, 17);
+            this.lblValorPArcelaImp.TabIndex = 9;
+            this.lblValorPArcelaImp.Text = "0,00";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(6, 26);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(212, 15);
+            this.label26.TabIndex = 0;
+            this.label26.Text = "Data de pagamento do imposto:";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(321, 81);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(96, 15);
+            this.label27.TabIndex = 8;
+            this.label27.Text = "Valor parcela:";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(187, 81);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(100, 15);
+            this.label28.TabIndex = 4;
+            this.label28.Text = "Parcelado em:";
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.textBox9);
+            this.groupBox9.Controls.Add(this.label29);
+            this.groupBox9.Controls.Add(this.comboBox7);
+            this.groupBox9.Controls.Add(this.label30);
+            this.groupBox9.Location = new System.Drawing.Point(2, 32);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox9.Size = new System.Drawing.Size(633, 127);
+            this.groupBox9.TabIndex = 11;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Veículo";
+            this.groupBox9.Enter += new System.EventHandler(this.groupBox9_Enter);
+            // 
+            // textBox9
+            // 
+            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Location = new System.Drawing.Point(171, 44);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.ReadOnly = true;
+            this.textBox9.Size = new System.Drawing.Size(116, 21);
+            this.textBox9.TabIndex = 14;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(168, 27);
+            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(47, 15);
+            this.label29.TabIndex = 15;
+            this.label29.Text = "Placa:";
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Location = new System.Drawing.Point(12, 44);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(137, 23);
+            this.comboBox7.TabIndex = 14;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(9, 27);
+            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(58, 15);
+            this.label30.TabIndex = 0;
+            this.label30.Text = "Veículo:";
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.label31);
+            this.groupBox10.Controls.Add(this.rtbDescricaoMul);
+            this.groupBox10.Controls.Add(this.cmbParceladoMul);
+            this.groupBox10.Controls.Add(this.label32);
+            this.groupBox10.Controls.Add(this.txbValorMulta);
+            this.groupBox10.Controls.Add(this.dtMulta);
+            this.groupBox10.Controls.Add(this.lblValorParcelaMul);
+            this.groupBox10.Controls.Add(this.label34);
+            this.groupBox10.Controls.Add(this.label35);
+            this.groupBox10.Controls.Add(this.label36);
+            this.groupBox10.Location = new System.Drawing.Point(2, 165);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(633, 211);
+            this.groupBox10.TabIndex = 14;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Dados";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(9, 143);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(65, 15);
+            this.label31.TabIndex = 18;
+            this.label31.Text = "Descrição:";
+            // 
+            // rtbDescricaoMul
+            // 
+            this.rtbDescricaoMul.Location = new System.Drawing.Point(9, 161);
+            this.rtbDescricaoMul.Name = "rtbDescricaoMul";
+            this.rtbDescricaoMul.Size = new System.Drawing.Size(612, 41);
+            this.rtbDescricaoMul.TabIndex = 17;
+            this.rtbDescricaoMul.Text = "";
+            // 
+            // cmbParceladoMul
+            // 
+            this.cmbParceladoMul.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbParceladoMul.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbParceladoMul.FormattingEnabled = true;
+            this.cmbParceladoMul.Items.AddRange(new object[] {
+            "1 x",
+            "2 x",
+            "3 x",
+            "4 x",
+            "5 x",
+            "6 x",
+            "7 x",
+            "8 x",
+            "9 x",
+            "10 x",
+            "11 x",
+            "12 x",
+            "13 x",
+            "14 x",
+            "15 x",
+            "16 x",
+            "17 x",
+            "18 x",
+            "19 x",
+            "20 x"});
+            this.cmbParceladoMul.Location = new System.Drawing.Point(190, 99);
+            this.cmbParceladoMul.Name = "cmbParceladoMul";
+            this.cmbParceladoMul.Size = new System.Drawing.Size(97, 23);
+            this.cmbParceladoMul.TabIndex = 16;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(9, 81);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(44, 15);
+            this.label32.TabIndex = 10;
+            this.label32.Text = "Valor:";
+            // 
+            // txbValorMulta
+            // 
+            this.txbValorMulta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbValorMulta.Location = new System.Drawing.Point(9, 99);
+            this.txbValorMulta.Name = "txbValorMulta";
+            this.txbValorMulta.Size = new System.Drawing.Size(137, 21);
+            this.txbValorMulta.TabIndex = 11;
+            // 
+            // dtMulta
+            // 
+            this.dtMulta.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtMulta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtMulta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtMulta.Location = new System.Drawing.Point(9, 43);
+            this.dtMulta.Margin = new System.Windows.Forms.Padding(2);
+            this.dtMulta.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            this.dtMulta.Name = "dtMulta";
+            this.dtMulta.Size = new System.Drawing.Size(137, 21);
+            this.dtMulta.TabIndex = 1;
+            // 
+            // lblValorParcelaMul
+            // 
+            this.lblValorParcelaMul.AutoSize = true;
+            this.lblValorParcelaMul.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValorParcelaMul.Location = new System.Drawing.Point(349, 99);
+            this.lblValorParcelaMul.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblValorParcelaMul.Name = "lblValorParcelaMul";
+            this.lblValorParcelaMul.Size = new System.Drawing.Size(36, 17);
+            this.lblValorParcelaMul.TabIndex = 9;
+            this.lblValorParcelaMul.Text = "0,00";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Location = new System.Drawing.Point(6, 26);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(197, 15);
+            this.label34.TabIndex = 0;
+            this.label34.Text = "Data de pagamento da multa:";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Location = new System.Drawing.Point(321, 81);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(96, 15);
+            this.label35.TabIndex = 8;
+            this.label35.Text = "Valor parcela:";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(187, 81);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(100, 15);
+            this.label36.TabIndex = 4;
+            this.label36.Text = "Parcelado em:";
+            // 
+            // groupBox11
+            // 
+            this.groupBox11.Controls.Add(this.textBox11);
+            this.groupBox11.Controls.Add(this.label37);
+            this.groupBox11.Controls.Add(this.comboBox9);
+            this.groupBox11.Controls.Add(this.label38);
+            this.groupBox11.Location = new System.Drawing.Point(2, 32);
+            this.groupBox11.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox11.Name = "groupBox11";
+            this.groupBox11.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox11.Size = new System.Drawing.Size(633, 127);
+            this.groupBox11.TabIndex = 13;
+            this.groupBox11.TabStop = false;
+            this.groupBox11.Text = "Veículo";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox11.Location = new System.Drawing.Point(171, 44);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.ReadOnly = true;
+            this.textBox11.Size = new System.Drawing.Size(116, 21);
+            this.textBox11.TabIndex = 14;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Location = new System.Drawing.Point(168, 27);
+            this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(47, 15);
+            this.label37.TabIndex = 15;
+            this.label37.Text = "Placa:";
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Location = new System.Drawing.Point(12, 44);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(137, 23);
+            this.comboBox9.TabIndex = 14;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Location = new System.Drawing.Point(9, 27);
+            this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(58, 15);
+            this.label38.TabIndex = 0;
+            this.label38.Text = "Veículo:";
+            // 
+            // groupBox12
+            // 
+            this.groupBox12.Controls.Add(this.rabLancRecorOut);
+            this.groupBox12.Controls.Add(this.rabPagParceladoOut);
+            this.groupBox12.Controls.Add(this.label39);
+            this.groupBox12.Controls.Add(this.rtbDescricaoOutro);
+            this.groupBox12.Controls.Add(this.cmbParceladoOut);
+            this.groupBox12.Controls.Add(this.label40);
+            this.groupBox12.Controls.Add(this.txbValorOutro);
+            this.groupBox12.Controls.Add(this.dtOutro);
+            this.groupBox12.Controls.Add(this.lblValorParcelaOut);
+            this.groupBox12.Controls.Add(this.label42);
+            this.groupBox12.Controls.Add(this.lblValorParcOut);
+            this.groupBox12.Controls.Add(this.lblParceladoOut);
+            this.groupBox12.Location = new System.Drawing.Point(2, 165);
+            this.groupBox12.Name = "groupBox12";
+            this.groupBox12.Size = new System.Drawing.Size(633, 211);
+            this.groupBox12.TabIndex = 16;
+            this.groupBox12.TabStop = false;
+            this.groupBox12.Text = "Dados";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Location = new System.Drawing.Point(9, 143);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(65, 15);
+            this.label39.TabIndex = 18;
+            this.label39.Text = "Descrição:";
+            // 
+            // rtbDescricaoOutro
+            // 
+            this.rtbDescricaoOutro.Location = new System.Drawing.Point(9, 161);
+            this.rtbDescricaoOutro.Name = "rtbDescricaoOutro";
+            this.rtbDescricaoOutro.Size = new System.Drawing.Size(612, 41);
+            this.rtbDescricaoOutro.TabIndex = 17;
+            this.rtbDescricaoOutro.Text = "";
+            // 
+            // cmbParceladoOut
+            // 
+            this.cmbParceladoOut.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbParceladoOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbParceladoOut.FormattingEnabled = true;
+            this.cmbParceladoOut.Items.AddRange(new object[] {
+            "1 x",
+            "2 x",
+            "3 x",
+            "4 x",
+            "5 x",
+            "6 x",
+            "7 x",
+            "8 x",
+            "9 x",
+            "10 x",
+            "11 x",
+            "12 x",
+            "13 x",
+            "14 x",
+            "15 x",
+            "16 x",
+            "17 x",
+            "18 x",
+            "19 x",
+            "20 x"});
+            this.cmbParceladoOut.Location = new System.Drawing.Point(387, 99);
+            this.cmbParceladoOut.Name = "cmbParceladoOut";
+            this.cmbParceladoOut.Size = new System.Drawing.Size(97, 23);
+            this.cmbParceladoOut.TabIndex = 16;
+            this.cmbParceladoOut.Visible = false;
+            this.cmbParceladoOut.SelectedIndexChanged += new System.EventHandler(this.comboBox10_SelectedIndexChanged);
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Location = new System.Drawing.Point(9, 81);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(44, 15);
+            this.label40.TabIndex = 10;
+            this.label40.Text = "Valor:";
+            // 
+            // txbValorOutro
+            // 
+            this.txbValorOutro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbValorOutro.Location = new System.Drawing.Point(9, 99);
+            this.txbValorOutro.Name = "txbValorOutro";
+            this.txbValorOutro.Size = new System.Drawing.Size(137, 21);
+            this.txbValorOutro.TabIndex = 11;
+            // 
+            // dtOutro
+            // 
+            this.dtOutro.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtOutro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtOutro.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtOutro.Location = new System.Drawing.Point(9, 43);
+            this.dtOutro.Margin = new System.Windows.Forms.Padding(2);
+            this.dtOutro.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            this.dtOutro.Name = "dtOutro";
+            this.dtOutro.Size = new System.Drawing.Size(137, 21);
+            this.dtOutro.TabIndex = 1;
+            // 
+            // lblValorParcelaOut
+            // 
+            this.lblValorParcelaOut.AutoSize = true;
+            this.lblValorParcelaOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValorParcelaOut.Location = new System.Drawing.Point(546, 99);
+            this.lblValorParcelaOut.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblValorParcelaOut.Name = "lblValorParcelaOut";
+            this.lblValorParcelaOut.Size = new System.Drawing.Size(36, 17);
+            this.lblValorParcelaOut.TabIndex = 9;
+            this.lblValorParcelaOut.Text = "0,00";
+            this.lblValorParcelaOut.Visible = false;
+            this.lblValorParcelaOut.Click += new System.EventHandler(this.label41_Click);
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Location = new System.Drawing.Point(6, 26);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(137, 15);
+            this.label42.TabIndex = 0;
+            this.label42.Text = "Data de pagamento:";
+            // 
+            // lblValorParcOut
+            // 
+            this.lblValorParcOut.AutoSize = true;
+            this.lblValorParcOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValorParcOut.Location = new System.Drawing.Point(518, 81);
+            this.lblValorParcOut.Name = "lblValorParcOut";
+            this.lblValorParcOut.Size = new System.Drawing.Size(96, 15);
+            this.lblValorParcOut.TabIndex = 8;
+            this.lblValorParcOut.Text = "Valor parcela:";
+            this.lblValorParcOut.Visible = false;
+            this.lblValorParcOut.Click += new System.EventHandler(this.label43_Click);
+            // 
+            // lblParceladoOut
+            // 
+            this.lblParceladoOut.AutoSize = true;
+            this.lblParceladoOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblParceladoOut.Location = new System.Drawing.Point(384, 81);
+            this.lblParceladoOut.Name = "lblParceladoOut";
+            this.lblParceladoOut.Size = new System.Drawing.Size(100, 15);
+            this.lblParceladoOut.TabIndex = 4;
+            this.lblParceladoOut.Text = "Parcelado em:";
+            this.lblParceladoOut.Visible = false;
+            this.lblParceladoOut.Click += new System.EventHandler(this.label44_Click);
+            // 
+            // groupBox13
+            // 
+            this.groupBox13.Controls.Add(this.textBox13);
+            this.groupBox13.Controls.Add(this.label45);
+            this.groupBox13.Controls.Add(this.comboBox11);
+            this.groupBox13.Controls.Add(this.label46);
+            this.groupBox13.Location = new System.Drawing.Point(2, 32);
+            this.groupBox13.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox13.Size = new System.Drawing.Size(633, 127);
+            this.groupBox13.TabIndex = 15;
+            this.groupBox13.TabStop = false;
+            this.groupBox13.Text = "Veículo";
+            // 
+            // textBox13
+            // 
+            this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox13.Location = new System.Drawing.Point(171, 44);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.ReadOnly = true;
+            this.textBox13.Size = new System.Drawing.Size(116, 21);
+            this.textBox13.TabIndex = 14;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(168, 27);
+            this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(47, 15);
+            this.label45.TabIndex = 15;
+            this.label45.Text = "Placa:";
+            // 
+            // comboBox11
+            // 
+            this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Location = new System.Drawing.Point(12, 44);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(137, 23);
+            this.comboBox11.TabIndex = 14;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.Location = new System.Drawing.Point(9, 27);
+            this.label46.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(58, 15);
+            this.label46.TabIndex = 0;
+            this.label46.Text = "Veículo:";
+            // 
+            // rabLancRecorOut
+            // 
+            this.rabLancRecorOut.AutoSize = true;
+            this.rabLancRecorOut.Location = new System.Drawing.Point(173, 99);
+            this.rabLancRecorOut.Name = "rabLancRecorOut";
+            this.rabLancRecorOut.Size = new System.Drawing.Size(189, 17);
+            this.rabLancRecorOut.TabIndex = 17;
+            this.rabLancRecorOut.TabStop = true;
+            this.rabLancRecorOut.Text = "Lançamento recorrente (12 meses)";
+            this.rabLancRecorOut.UseVisualStyleBackColor = true;
+            this.rabLancRecorOut.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // rabPagParceladoOut
+            // 
+            this.rabPagParceladoOut.AutoSize = true;
+            this.rabPagParceladoOut.Location = new System.Drawing.Point(173, 122);
+            this.rabPagParceladoOut.Name = "rabPagParceladoOut";
+            this.rabPagParceladoOut.Size = new System.Drawing.Size(129, 17);
+            this.rabPagParceladoOut.TabIndex = 18;
+            this.rabPagParceladoOut.TabStop = true;
+            this.rabPagParceladoOut.Text = "Pagamento parcelado";
+            this.rabPagParceladoOut.UseVisualStyleBackColor = true;
+            this.rabPagParceladoOut.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // groupBox14
+            // 
+            this.groupBox14.Controls.Add(this.chbLancRecEstac);
+            this.groupBox14.Controls.Add(this.dtEstacionamento);
+            this.groupBox14.Controls.Add(this.label8);
+            this.groupBox14.Controls.Add(this.label19);
+            this.groupBox14.Controls.Add(this.txbValorEstac);
+            this.groupBox14.Location = new System.Drawing.Point(2, 162);
+            this.groupBox14.Name = "groupBox14";
+            this.groupBox14.Size = new System.Drawing.Size(633, 216);
+            this.groupBox14.TabIndex = 9;
+            this.groupBox14.TabStop = false;
+            this.groupBox14.Text = "Dados";
+            // 
+            // chbLancRecEstac
+            // 
+            this.chbLancRecEstac.AutoSize = true;
+            this.chbLancRecEstac.Location = new System.Drawing.Point(171, 102);
+            this.chbLancRecEstac.Name = "chbLancRecEstac";
+            this.chbLancRecEstac.Size = new System.Drawing.Size(190, 17);
+            this.chbLancRecEstac.TabIndex = 10;
+            this.chbLancRecEstac.Text = "Lançamento recorrente (12 meses)";
+            this.chbLancRecEstac.UseVisualStyleBackColor = true;
+            // 
+            // dtEstacionamento
+            // 
+            this.dtEstacionamento.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtEstacionamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtEstacionamento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtEstacionamento.Location = new System.Drawing.Point(9, 43);
+            this.dtEstacionamento.Margin = new System.Windows.Forms.Padding(2);
+            this.dtEstacionamento.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            this.dtEstacionamento.Name = "dtEstacionamento";
+            this.dtEstacionamento.Size = new System.Drawing.Size(137, 21);
+            this.dtEstacionamento.TabIndex = 1;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(6, 26);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(263, 15);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Data de pagamento do estacionamento:";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(6, 81);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(44, 15);
+            this.label19.TabIndex = 4;
+            this.label19.Text = "Valor:";
+            // 
+            // txbValorEstac
+            // 
+            this.txbValorEstac.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbValorEstac.Location = new System.Drawing.Point(9, 98);
+            this.txbValorEstac.Name = "txbValorEstac";
+            this.txbValorEstac.Size = new System.Drawing.Size(137, 21);
+            this.txbValorEstac.TabIndex = 5;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(171, 44);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(116, 21);
+            this.textBox1.TabIndex = 14;
             // 
             // FrmDespesa
             // 
@@ -1016,6 +2337,32 @@
             this.toolStripOutros.ResumeLayout(false);
             this.toolStripOutros.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
+            this.groupBox10.ResumeLayout(false);
+            this.groupBox10.PerformLayout();
+            this.groupBox11.ResumeLayout(false);
+            this.groupBox11.PerformLayout();
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox12.PerformLayout();
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
+            this.groupBox14.ResumeLayout(false);
+            this.groupBox14.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1092,9 +2439,108 @@
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton31;
         private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton32;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.CheckBox ckbLancRecorrenteSeg;
+        private System.Windows.Forms.DateTimePicker dtSeguro;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txbValorSeguro;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.ComboBox cmbParceladoMan;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txbValorManutencao;
+        private System.Windows.Forms.DateTimePicker dtManutencao;
+        private System.Windows.Forms.Label lblValorParcelaMan;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.RichTextBox rtbDescricaoMan;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.RichTextBox rtbDescricaoMel;
+        private System.Windows.Forms.ComboBox cmbParceladoMel;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox txbValorMelhoria;
+        private System.Windows.Forms.DateTimePicker dtMelhoria;
+        private System.Windows.Forms.Label lblValorParcelaMel;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.RichTextBox rtbDescricaoImp;
+        private System.Windows.Forms.ComboBox cmbParceladoImp;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox txbValorImposto;
+        private System.Windows.Forms.DateTimePicker dtImposto;
+        private System.Windows.Forms.Label lblValorPArcelaImp;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.RichTextBox rtbDescricaoMul;
+        private System.Windows.Forms.ComboBox cmbParceladoMul;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.TextBox txbValorMulta;
+        private System.Windows.Forms.DateTimePicker dtMulta;
+        private System.Windows.Forms.Label lblValorParcelaMul;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.GroupBox groupBox11;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.RichTextBox rtbDescricaoOutro;
+        private System.Windows.Forms.ComboBox cmbParceladoOut;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.TextBox txbValorOutro;
+        private System.Windows.Forms.DateTimePicker dtOutro;
+        private System.Windows.Forms.Label lblValorParcelaOut;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label lblValorParcOut;
+        private System.Windows.Forms.Label lblParceladoOut;
+        private System.Windows.Forms.GroupBox groupBox13;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.RadioButton rabLancRecorOut;
+        private System.Windows.Forms.RadioButton rabPagParceladoOut;
+        private System.Windows.Forms.GroupBox groupBox14;
+        private System.Windows.Forms.CheckBox chbLancRecEstac;
+        private System.Windows.Forms.DateTimePicker dtEstacionamento;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox txbValorEstac;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

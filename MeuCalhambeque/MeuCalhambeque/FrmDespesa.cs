@@ -210,5 +210,56 @@ namespace MeuCalhambeque
             }
         }
         #endregion
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox9_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label44_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox10_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label43_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label41_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            cmbParceladoOut.Visible = false;
+            lblParceladoOut.Visible = false;
+            lblValorParcelaOut.Visible = false;
+            lblValorParcOut.Visible = false;
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            cmbParceladoOut.Visible = true;
+            lblParceladoOut.Visible = true;
+            lblValorParcelaOut.Visible = true;
+            lblValorParcOut.Visible = true;
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
